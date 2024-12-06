@@ -90,7 +90,7 @@ class Login extends LitElement {
         text: "메인 페이지로 이동합니다.",
         icon: "success",
         confirmButtonText: "닫기",
-      }).then((res) => {
+      }).then(() => {
         setTimeout(() => {
           location.href = "/index.html";
         }, 300);

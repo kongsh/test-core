@@ -100,7 +100,7 @@ class Detail extends LitElement {
     this.realPrice = realPrice;
   }
 
-  handleModify(e: Event) {
+  handleModify() {
     pb.collection("products")
       .update(this.productId, {
         brand: this.inputs[0].value,
